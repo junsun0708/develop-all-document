@@ -57,6 +57,28 @@
 - readme.md 파일 삭제되는 현상. 풀 받고 처리해야 할듯
 ```
 
+```
+- 첫 push 에러
+- 처음 repo 연결 후 push시 에러
+- error: src refspec main does not match any
+- pull 없이 push해서 생기는 문제
+- git pull
+```
+
+```
+- 첫 pull 시도시
+- 처음 repo 연결 후 push전에 pull 먼저 시도할 경우
+- error: src refspec main does not match any
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+- 연결된 branch가 없음 (리모트로 연결 했음에도)
+- git branch -M main
+- git branch --set-upstream-to=origin/<branch> main
+- 위에 걸로 해결 안됨 . remote에 readme.md 파일을 생성 안하여 리포지토리가 없었던 거였음. 깃허브에서 임시파일 생성
+- 그래도 해결 안됨. git init 부터 다시 하고 강제 push
+```
+
 ## 😎 참고
 
 참고할 사이트/블로그 정리
