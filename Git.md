@@ -79,6 +79,23 @@ See git-pull(1) for details.
 - 그래도 해결 안됨. git init 부터 다시 하고 강제 push
 ```
 
+```
+- sts에서 깃 커밋시 에러
+- sts에서 처음 깃 연결후 터미널 말고 gui로 커밋시 아이디/패스워드 로그인 불가
+- not auth
+- 토큰방식으로 깃 연결방식이 변경
+- 참고 : https://joytk.tistory.com/58
+- 토큰발급후 아이디(깃아이디)/ 패스워드(토큰)으로 입력
+```
+
+```
+- sts에서 깃 커밋시 에러
+- 깃 커밋시 rejected-non-fast-forward 오류
+- main->main rejected-non-fast-forward
+- 로컬 에서 원격으로 반영할려고 하는데, 원격브랜치가 로컬보다 이전 버전이 아니라는 뜻
+- git pull실행
+```
+
 ## 😎 참고
 
 참고할 사이트/블로그 정리
